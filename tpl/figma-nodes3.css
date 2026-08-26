@@ -437,7 +437,7 @@ body{overflow-x:hidden!important}
 .site-menu-links>li{border-bottom:1px solid #d7eaf2}
 .site-menu-links a{position:relative;display:flex;align-items:center;min-height:48px;padding:8px 30px 8px 10px;color:#00425e;font-size:15px;font-weight:700;text-decoration:none}
 .site-menu-links a:after{content:"›";position:absolute;right:10px;top:50%;color:#f39800;font-size:25px;font-weight:700;transform:translateY(-52%)}
-.site-menu-line{display:flex;align-items:center;justify-content:center;width:100%;min-height:58px;border-radius:9px;background:linear-gradient(101deg,#00b84f 3.7%,#06d866 96.3%);box-shadow:0 4px 0 #087c38,inset 0 0 9px rgba(255,255,255,.65);color:#fff;text-shadow:0 1px 2px rgba(0,80,34,.35);cursor:default;user-select:none}
+.site-menu-line{display:flex;align-items:center;justify-content:center;width:100%;min-height:58px;border-radius:9px;background:linear-gradient(101deg,#008f3d 3.7%,#00c956 96.3%);box-shadow:0 4px 0 #056b30,inset 0 0 9px rgba(255,255,255,.6);color:#fff;text-shadow:0 1px 2px rgba(0,65,28,.45);cursor:default;user-select:none}
 .site-menu-line>strong{font-size:17px;font-weight:800}
 html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
 @media (hover:hover) and (pointer:fine){.site-menu-links a:hover{background:#eaf8ff;color:#007ebd}}
