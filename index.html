@@ -10,7 +10,7 @@
     <link rel="preload" as="image" href="tpl/figma-assets/fv-rays.webp" type="image/webp" fetchpriority="high" />
     <link rel="preload" as="image" href="tpl/figma-assets/fv-aria.webp" type="image/webp" fetchpriority="high" />
     <link rel="stylesheet" href="tpl/styles3.css" />
-    <link rel="stylesheet" href="tpl/figma-nodes3.css?v=20260826-1" />
+    <link rel="stylesheet" href="tpl/figma-nodes3.css?v=20260826-2" />
     <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
 
 
@@ -26,14 +26,19 @@
 <span class="rb-num" style="display:none;">93<span class="rb-pct">%</span></span>
 <span class="rb-num" style="display:none;">90<span class="rb-pct">%</span></span>
 
-    <div class="site-stage">
-      <div class="site-shell">
-      <header class="site-header" id="top" data-node-id="392:61396">
+    <div class="site-header-stage">
+      <div class="site-header-canvas">
+      <header class="site-header" data-node-id="392:61396">
         <div class="figma-logo" data-node-id="392:61397" role="img" aria-label="即日アリアちゃん">
           <img loading="eager" decoding="sync" fetchpriority="high" class="figma-logo__combined" src="tpl/figma-assets/header-logo.webp" alt="" width="259" height="59" />
         </div>
         <button class="site-menu-toggle" type="button" aria-label="メニューを開く" aria-controls="site-menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </header>
+      </div>
+    </div>
+    <div class="site-stage">
+      <div class="site-shell">
+      <div class="site-header-spacer" id="top" aria-hidden="true"></div>
 
       <main>
         <section class="hero" data-node-id="392:49556" aria-label="Appleギフトカード買取専門店">
@@ -243,6 +248,8 @@
       const fitFigmaCanvas = () => {
         const stage = document.querySelector('.site-stage');
         const shell = document.querySelector('.site-shell');
+        const headerStage = document.querySelector('.site-header-stage');
+        const headerCanvas = document.querySelector('.site-header-canvas');
         const followCta = document.querySelector('.follow-cta-stage');
         const followCtaCanvas = document.querySelector('.follow-cta-canvas');
         const scale = stage.clientWidth / 393;
@@ -251,6 +258,9 @@
         shell.style.transform = useLayoutZoom ? 'none' : `scale(${scale})`;
         shell.style.transformOrigin = 'top left';
         stage.style.height = useLayoutZoom ? 'auto' : `${shell.scrollHeight * scale}px`;
+        headerStage.style.width = `${393 * scale}px`;
+        headerStage.style.height = `${71 * scale}px`;
+        headerCanvas.style.transform = `scale(${scale})`;
         followCta.style.width = `${393 * scale}px`;
         followCta.style.height = `${77 * scale}px`;
         followCtaCanvas.style.transform = `scale(${scale})`;

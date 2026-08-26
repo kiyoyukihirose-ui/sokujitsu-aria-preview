@@ -442,6 +442,8 @@ body{overflow-x:hidden!important}
 html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
 @media (hover:hover) and (pointer:fine){.site-menu-links a:hover{background:#eaf8ff;color:#007ebd}}
 
-/* Keep the logo and hamburger visible while the page scrolls. */
-.site-stage>.site-shell{overflow:clip!important}
-.site-shell>.site-header{position:sticky!important;top:0!important;z-index:1100!important}
+/* Keep the logo and hamburger fixed to the top edge of the viewport. */
+.site-stage>.site-shell{overflow:hidden!important}
+.site-header-spacer{width:393px;height:71px;background:#fff8ea}
+.site-header-stage{position:fixed;z-index:1100;left:50%;top:0;width:393px;height:71px;overflow:hidden;transform:translateX(-50%);transform-origin:top center}
+.site-header-canvas{position:absolute;left:0;top:0;width:393px;height:71px;transform-origin:top left}
