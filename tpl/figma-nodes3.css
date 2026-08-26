@@ -445,5 +445,5 @@ html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
 /* Keep the logo and hamburger fixed to the top edge of the viewport. */
 .site-stage>.site-shell{overflow:hidden!important}
 .site-header-spacer{width:393px;height:71px;background:#fff8ea}
-.site-header-stage{position:fixed;z-index:1100;left:50%;top:0;width:393px;height:71px;overflow:hidden;transform:translateX(-50%);transform-origin:top center;box-shadow:0 5px 12px rgba(55,34,0,.32)}
+.site-header-stage{position:fixed;z-index:1100;left:50%;top:0;width:393px;height:71px;overflow:hidden;transform:translateX(-50%);transform-origin:top center;box-shadow:0 3px 6px rgba(55,34,0,.3)}
 .site-header-canvas{position:absolute;left:0;top:0;width:393px;height:71px;transform-origin:top left}
