@@ -441,3 +441,7 @@ body{overflow-x:hidden!important}
 .site-menu-line>strong{font-size:17px;font-weight:800}
 html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
 @media (hover:hover) and (pointer:fine){.site-menu-links a:hover{background:#eaf8ff;color:#007ebd}}
+
+/* Keep the logo and hamburger visible while the page scrolls. */
+.site-stage>.site-shell{overflow:clip!important}
+.site-shell>.site-header{position:sticky!important;top:0!important;z-index:1100!important}
