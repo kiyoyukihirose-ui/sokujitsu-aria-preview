@@ -691,11 +691,11 @@ html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
   .hero__character-outline{left:28px!important;top:5px!important;width:665px!important;height:932px!important;max-width:none!important}
   .hero__aria{width:736px!important;height:942px!important;max-width:none!important}
 
-  .hero>.hero__speed{left:414px!important;top:108.79px!important;width:471px!important;height:111.884px!important}
+  .hero>.hero__speed{left:414px!important;top:108.789154px!important;width:471px!important;height:111.883598px!important}
   .hero__speed>.hero__speed-panel{content:url("figma-assets/hero-speed-panel-pc.svg")!important;inset:-7.63px!important;width:486.255px!important;height:127.139px!important;max-width:none!important}
   .hero>.hero__speed>.hero__stopwatch{content:url("figma-assets/hero-stopwatch-pc.svg")!important;left:34.593px!important;top:17.497px!important;width:51.808px!important;height:59.826px!important;max-width:none!important}
-  .hero>.hero__speed>span{left:104.732px!important;top:32.306px!important;width:138.616px!important;height:42px!important;font-size:34.324px!important;line-height:normal!important}
-  .hero>.hero__speed>strong{left:246.429px!important;top:-4px!important;width:194.062px!important;height:82.407px!important;font-size:47.495px!important;line-height:normal!important}
+  .hero>.hero__speed>span{left:104.731842px!important;top:32.344064px!important;width:138.615677px!important;height:41.584702px!important;font-size:34.324px!important;line-height:normal!important}
+  .hero>.hero__speed>strong{left:246.427872px!important;top:.000425px!important;width:194.061951px!important;height:81.629234px!important;font-size:47.495px!important;line-height:normal!important}
   .hero__speed>strong>.hero__speed-narrow{letter-spacing:-8.0741px!important}
   .hero__speed>strong>b{font-size:67.85px!important;letter-spacing:-9.4989px!important}
   .hero__speed>.hero__speed-line{content:url("figma-assets/hero-speed-underline-pc.svg")!important;left:236.544px!important;top:59.774px!important;width:231.979px!important;height:29.699px!important;max-width:none!important;transform:rotate(.81deg)!important;transform-origin:center!important}
