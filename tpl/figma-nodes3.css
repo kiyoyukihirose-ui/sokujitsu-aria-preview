@@ -683,7 +683,7 @@ html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
   /* First view: Figma 130:32773, 1920 x 682. */
   .hero.hero{position:relative!important;width:100%!important;min-width:1024px!important;height:682px!important;min-height:682px!important;margin:0!important;overflow:hidden!important;background:linear-gradient(100.019deg,rgba(255,157,0,.85) 3.672%,rgba(245,166,35,.85) 96.328%)!important}
   .hero.hero:before{content:""!important;position:absolute!important;z-index:1!important;display:block!important;left:245px!important;top:504px!important;width:802px!important;height:138px!important;border-radius:123px!important;background:#fff8ea!important;filter:blur(37.145px)!important}
-  .hero>.hero__rays{left:-767px!important;top:-1165px!important;width:2776px!important;height:2782px!important;max-width:none!important}
+  .hero>.hero__rays{left:-767px!important;top:-1021px!important;width:2776px!important;height:2782px!important;max-width:none!important}
   .hero>.hero__glow{left:1051px!important;top:-186px!important;width:1164px!important;height:1073px!important;max-width:none!important}
   .hero>.hero__eyebrow{left:372px!important;top:29px!important;width:551.324px!important;height:43.854px!important;border-radius:40.722px!important;font-size:30.96px!important;line-height:43.854px!important;box-shadow:3.68px 3.13px 0 #372200!important}
   .hero__eyebrow>p{transform:none!important}
