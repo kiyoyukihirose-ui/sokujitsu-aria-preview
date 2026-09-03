@@ -694,11 +694,11 @@ html.site-menu-open,html.site-menu-open body{overflow:hidden!important}
   .hero>.hero__speed{left:414px!important;top:108.789154px!important;width:471px!important;height:111.883598px!important}
   .hero__speed>.hero__speed-panel{content:url("figma-assets/hero-speed-panel-pc.svg")!important;inset:-7.63px!important;width:486.255px!important;height:127.139px!important;max-width:none!important}
   .hero>.hero__speed>.hero__stopwatch{content:url("figma-assets/hero-stopwatch-pc.svg")!important;left:34.593px!important;top:17.497px!important;width:51.808px!important;height:59.826px!important;max-width:none!important}
-  .hero>.hero__speed>span{left:104.731842px!important;top:32.344064px!important;width:138.615677px!important;height:41.584702px!important;font-size:34.324px!important;line-height:normal!important;font-synthesis:none!important;text-rendering:geometricPrecision!important}
-  .hero>.hero__speed>strong{left:246.427872px!important;top:-4.999575px!important;width:194.061951px!important;height:81.629234px!important;font-size:47.495px!important;line-height:normal!important;font-synthesis:none!important;text-rendering:geometricPrecision!important}
+  .hero>.hero__speed>span{left:104.731842px!important;top:28.344064px!important;width:138.615677px!important;height:41.584702px!important;font-size:34.324px!important;line-height:normal!important;font-synthesis:none!important;text-rendering:geometricPrecision!important}
+  .hero>.hero__speed>strong{left:246.427872px!important;top:-8.999575px!important;width:194.061951px!important;height:81.629234px!important;font-size:47.495px!important;line-height:normal!important;font-synthesis:none!important;text-rendering:geometricPrecision!important}
   .hero__speed>strong>.hero__speed-narrow{letter-spacing:-8.0741px!important}
   .hero__speed>strong>b{font-size:67.85px!important;letter-spacing:-9.4989px!important}
-  .hero__speed>.hero__speed-line{content:url("figma-assets/hero-speed-underline-pc.svg")!important;left:236.544px!important;top:63.774px!important;width:231.979px!important;height:29.699px!important;max-width:none!important;transform:rotate(.81deg)!important;transform-origin:center!important}
+  .hero__speed>.hero__speed-line{content:url("figma-assets/hero-speed-underline-pc.svg")!important;left:236.544px!important;top:59.774px!important;width:231.979px!important;height:29.699px!important;max-width:none!important;transform:rotate(.81deg)!important;transform-origin:center!important}
 
   .hero>.current-rate{left:337px!important;top:238px!important;width:625px!important;height:243.946px!important;border-radius:17.806px!important;box-shadow:0 0 5.499px rgba(55,34,0,.5)!important;filter:drop-shadow(0 0 3.561px rgba(0,66,94,.5))!important}
   .current-rate__title{height:60.54px!important;gap:14px!important;font-family:Inter,"Noto Sans JP",sans-serif!important;font-size:31.424px!important;font-weight:500!important;text-shadow:0 0 7.123px #003c59!important}
