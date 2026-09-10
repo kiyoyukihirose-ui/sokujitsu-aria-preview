@@ -10,7 +10,7 @@
     <link rel="preload" as="image" href="tpl/figma-assets/fv-rays.webp" type="image/webp" fetchpriority="high" />
     <link rel="preload" as="image" href="tpl/figma-assets/fv-aria.webp" type="image/webp" fetchpriority="high" />
     <link rel="stylesheet" href="tpl/styles3.css" />
-    <link rel="stylesheet" href="tpl/figma-nodes3.css?v=20260910-80" />
+    <link rel="stylesheet" href="tpl/figma-nodes3.css?v=20260910-81" />
     <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
 
 
@@ -358,7 +358,26 @@
         document.documentElement.classList.toggle('site-menu-open', open);
       };
       menuToggle.addEventListener('click', () => setMenuOpen(!siteMenu.classList.contains('is-open')));
-      siteMenu.querySelectorAll('.site-menu-close,.site-menu-backdrop,a[href^="#"]').forEach(element => element.addEventListener('click', () => setMenuOpen(false)));
+      siteMenu.querySelectorAll('.site-menu-close,.site-menu-backdrop').forEach(element => element.addEventListener('click', () => setMenuOpen(false)));
+      siteMenu.querySelectorAll('a[href^="#"]').forEach(link => link.addEventListener('click', event => {
+        if (window.matchMedia('(min-width:1024px)').matches) {
+          setMenuOpen(false);
+          return;
+        }
+
+        const hash = link.getAttribute('href');
+        const target = hash && document.querySelector(hash);
+        if (!target) return;
+
+        event.preventDefault();
+        setMenuOpen(false);
+        requestAnimationFrame(() => {
+          const headerHeight = document.querySelector('.site-header-stage').getBoundingClientRect().height;
+          const targetTop = window.scrollY + target.getBoundingClientRect().top - headerHeight;
+          window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+          history.pushState(null, '', hash);
+        });
+      }));
       document.addEventListener('keydown', event => { if (event.key === 'Escape') setMenuOpen(false); });
     </script>
   </body>
